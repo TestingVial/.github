@@ -1,15 +1,41 @@
-## Hi there 👋
+# TestingVial · GitHub
 
-<!--
+Write business‑oriented tests using the **Testing Vial** approach!
 
-**Here are some ideas to get you started:**
+The **TestingVial** organization hosts a collection of open‑source projects designed to bring the *Testing Vial* philosophy - originally introduced in the article [Introducing the Testing Vial: a (better?) alternative to Testing Diamond and Testing Pyramid](https://www.code4it.dev/blog/testing-vial) - to multiple programming languages and ecosystems.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 🎯 Purpose of the Organization
+
+The goal of this organization is to provide a unified ecosystem that supports the full Testing Vial workflow:
+
+### 1. Language‑specific Vial Attributes / Annotations
+
+Each language‑focused repository defines a way to tag test cases using the **Vial attribute**, enabling developers to classify and describe tests in a business‑oriented, human‑friendly way.
+
+Examples include:
+
+*   **TestingVial.NET** – a C# implementation of the Vial attribute [(GitHub repo)](https://github.com/TestingVial/TestingVial.NET)
+*   Future repositories for other languages (Python, Java, JavaScript, Go, etc.)
+
+### 2. CLI Tools to Extract Vials
+
+Dedicated CLI tools will parse source code looking for Vial‑annotated tests and generate metadata files with the `.vial` extension.
+
+These `.vial` files act as a standardized, language‑agnostic test description format.
+
+### 3. Tools That Consume `.vial` Files
+
+Additional tooling will interpret `.vial` files to enable:
+
+*   Documentation generation
+*   Test analytics
+*   Coverage mapping
+*   Reporting
+*   Integrations with external platforms
+
+This three‑layer structure ensures that **any language can produce Vials**, and **any tool can consume them**, making the ecosystem highly extensible.
+
+ 
 
 
 
@@ -98,3 +124,28 @@ output: {
 -->
 
 <img width="5096" height="2578" alt="image" src="https://github.com/user-attachments/assets/c0559199-8e32-4d24-99db-d91f4ceef2d1" />
+
+
+
+## 🧩 Vision
+
+The long‑term vision for the TestingVial organization is to offer:
+
+*   A complete multi‑language suite of Vial attribute libraries
+*   CLI utilities for extracting and validating Vials
+*   Developer tools, dashboards, and automations that make Vial‑based testing a natural part of the development lifecycle
+
+By standardizing how tests are described and discovered, the Testing Vial helps teams write **more meaningful**, **business‑aligned**, and **actionable** tests.
+
+## 📚 Current Status
+
+The organization currently includes:
+
+*   **TestingVial.NET** (C# implementation) [\[github.com\]](https://github.com/TestingVial/TestingVial.NET)
+*   Additional repositories and tooling are under active development.
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+
+Whether you're building a Vial implementation for a new language, improving CLI tools, or contributing to documentation, your help can expand the Testing Vial ecosystem.

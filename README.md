@@ -1,3 +1,0 @@
-# Testing Vial
-
-lorem ipsum
