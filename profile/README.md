@@ -104,7 +104,7 @@ output: {
 
 -->
 
-<img width="5096" height="2578" alt="image" src="https://github.com/user-attachments/assets/c0559199-8e32-4d24-99db-d91f4ceef2d1" />
+<img width="5096" height="2578" alt="image" src="./assets/vision.png" />
 
 
 
