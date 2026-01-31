@@ -41,35 +41,13 @@ This three‑layer structure ensures that **any language can produce Vials**, an
 
 <!--
 D2 diagram (ELK engine)
-classes: {
-  done: {
-    style: {
-      stroke-width: 0
-      fill: "#44C7B1"
-      shadow: true
-      border-radius: 5
-    }
-  }
-  ongoing: {
-    style: {
-      fill: "orange"
-    }
-  }
-}
-
-k: Keys (Legend) {
-  a: To be implemented/proposed
-  b: Ongoing
-  b.class: ongoing
-  c: Implemented
-  c.class: done
-}
+Tema: everglade green 
 
 input: {
   dotnet: .NET {
     app: YOUR .NET Application
 
-    vial: TestingVial for .NET
+    vial: TestingVial.NET
     vial.shape: package
 
     cli: CLI .NET
@@ -116,9 +94,12 @@ output: {
   htmlConverter.shape: hexagon
   vsCodeExtension: VSCode extension
   vsCodeExtension.shape: hexagon
+  standaloneTool: Standalone tool
+  standaloneTool.shape: hexagon
 
   _.file -> htmlConverter
   _.file -> vsCodeExtension
+  _.file -> standaloneTool
 }
 
 -->
