@@ -19,9 +19,9 @@ Examples include:
 
 ### 2. CLI Tools to Extract Vials
 
-Dedicated CLI tools will parse source code looking for Vial‑annotated tests and generate metadata files with the `.vial` extension.
+Dedicated CLI tools, called "Pipette"s,  parse source code looking for Vial‑annotated tests and generate metadata files with the `.vial` extension.
 
-These `.vial` files act as a standardized, language‑agnostic test description format.
+These `.vial` files act as a standardised, language‑agnostic test description format.
 
 ### 3. Tools That Consume `.vial` Files
 
@@ -50,7 +50,7 @@ input: {
     vial: TestingVial.NET
     vial.shape: package
 
-    cli: CLI .NET
+    cli: Pipette.NET
     cli.shape: step
 
     app -> vial: enriches tests with
@@ -62,7 +62,7 @@ input: {
 
     vial: TestingVial for Python
     vial.shape: package
-    cli: CLI Python
+    cli: Pipette for Python
     cli.shape: step
 
     app -> vial: enriches tests with
@@ -74,7 +74,7 @@ input: {
 
     vial: TestingVial for Node.JS
     vial.shape: package
-    cli: CLI for Node.JS
+    cli: Pipette for Node.JS
     cli.shape: step
 
     app -> vial: enriches tests with
@@ -122,7 +122,9 @@ By standardizing how tests are described and discovered, the Testing Vial helps 
 
 The organization currently includes:
 
+*   **VialSchemas**: the definition of JSON Schemas that are used to validate and generate .vial files [\[github.com\]](https://github.com/TestingVial/VialSchemas)
 *   **TestingVial.NET** (C# implementation) [\[github.com\]](https://github.com/TestingVial/TestingVial.NET)
+*   **Pipette.NET** (C# implementaition of Pipette) [\[github.com\]](https://github.com/TestingVial/Pipette.NET)
 *   Additional repositories and tooling are under active development.
 
 ## 🤝 Contributing
